@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import os
 
 # Create output directory
-output_dir = r"C:\Dev\MLBasics\build\regression-example"
+output_dir = r"/build/regression-example"
 os.makedirs(output_dir, exist_ok=True)
 
 # Set random seed for reproducibility

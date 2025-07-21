@@ -9,7 +9,7 @@ from sklearn.metrics import adjusted_rand_score, silhouette_score
 import os
 
 # Create output directory
-output_dir = r"C:\Dev\MLBasics\build\dbscan-example"
+output_dir = r"/build/dbscan-example"
 os.makedirs(output_dir, exist_ok=True)
 
 # Set random seed for reproducibility

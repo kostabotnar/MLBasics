@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 import os
 
 # Create output directory
-output_dir = r"C:\Dev\MLBasics\build\lr-example"
+output_dir = r"/build/lr-example"
 os.makedirs(output_dir, exist_ok=True)
 
 # Set random seed for reproducibility
